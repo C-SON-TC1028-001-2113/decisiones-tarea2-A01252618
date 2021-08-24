@@ -1,6 +1,25 @@
 def main():
     #escribe tu código abajo de esta línea
-    
+    edad = int(input("Ingresa tu edad: ")) 
+    a = edad>= 18
+    b = edad >0
+
+    if a and b:
+        id = str(input("¿Tienes identificación oficial? (s/n): "))
+        if id == "s" : 
+            print ("Trámite de licencia concedido")
+
+        elif id == "n": 
+            print ("No cumples requisitos")
+
+        else: 
+            print ("Respuesta incorrecta")
+        
+    if not a and b:
+            print ("No cumples requisitos")
+    if not a and not b: 
+            print ("No cumples requisitos")
+        
 
 
 if __name__=='__main__':
