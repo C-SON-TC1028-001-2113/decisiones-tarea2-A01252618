@@ -2,7 +2,8 @@ def main():
     #escribe tu código abajo de esta línea
     edad = int(input("Ingresa tu edad: "))
     a = edad >= 18
-    b = edad > 0
+    b = edad> 0
+  
     if a and b : 
         ine = str(input("¿Tienes identificación oficial? (s/n): "))
         if ine == "s" :
