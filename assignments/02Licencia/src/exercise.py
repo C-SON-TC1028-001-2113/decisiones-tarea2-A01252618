@@ -2,7 +2,7 @@ def main():
     #escribe tu código abajo de esta línea
     edad = int(input("Ingresa tu edad: "))
     a = edad >= 18
-    b = edad> 0
+    b = edad > 0
   
     if a and b : 
         ident = str(input("¿Tienes identificación oficial? (s/n): "))
@@ -10,7 +10,7 @@ def main():
             print ("Trámite de licencia concecido")
         elif ident == "n" : 
             print ("No cumples requisitos")
-        else:
+        else :
             print ("Respuesta incorrecta")
     if not a and b :
         print ("No cumples requisitos")

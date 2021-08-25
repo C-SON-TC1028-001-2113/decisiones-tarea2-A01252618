@@ -16,7 +16,5 @@ def main():
     else:
         print("NO ES TRIANGULO")
     
-
-
 if __name__=='__main__':
     main()
